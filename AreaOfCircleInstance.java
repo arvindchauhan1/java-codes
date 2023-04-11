@@ -9,5 +9,6 @@ public class AreaOfCircleInstance {
         obj.radius=sc.nextDouble();
         double area = 3.14 * obj.radius * obj.radius;
         System.out.println("Area = " + area);
+        sc.close();
     }
 }

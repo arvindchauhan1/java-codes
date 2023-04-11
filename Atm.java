@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.util.File;
 
 class Atm {
     String cust_name = "Arvind";
@@ -10,7 +9,8 @@ class Atm {
     void stop() {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter 1 for main menu");
-        int t = sc.nextInt();
+        sc.nextInt();
+        sc.close();
         return;
     }
 

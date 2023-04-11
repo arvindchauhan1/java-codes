@@ -8,7 +8,7 @@ public class EvenOdd2 {
 		EvenOdd2 obj = new EvenOdd2();
 		obj.num = sc.nextInt();
 		switch (obj.num % 2) {
-			case 0:0
+			case 0:
 				System.out.println(obj.num + " is Even");
 				break;
 

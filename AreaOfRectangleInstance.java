@@ -10,5 +10,6 @@ class AreaOfRectangleInstance {
         obj.width=sc.nextInt();
         int area = obj.length * obj.width;
         System.out.println("Area = " + area);
+        sc.close();
     }
 }
