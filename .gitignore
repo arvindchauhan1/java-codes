@@ -1,3 +1,5 @@
 *.class
 *.metadata
 *.prob
+file-handeling/*.txt
+!file-handeling/file2.txt
