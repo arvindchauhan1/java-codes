@@ -15,7 +15,10 @@ public class FileWrite {
 
             FileWriter fw = new FileWriter("./file2.txt");
 
-            fw.write("Files in Java might be tricky, but it is fun enough!");
+            fw.write("Files in Java might be tricky, but it is fun enough!\n");
+            fw.append("Files in Java might be tricky, but it is fun enough!\n");
+            fw.append("Files in Java might be tricky, but it is fun enough!\n");
+            fw.append("Files in Java might be tricky, but it is fun enough!\n");
 
             fw.close();
 
